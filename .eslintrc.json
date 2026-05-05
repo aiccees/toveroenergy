@@ -1,0 +1,10 @@
+{
+  "extends": [
+    "next",
+    "next/core-web-vitals"
+  ],
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": "latest"
+  }
+}
