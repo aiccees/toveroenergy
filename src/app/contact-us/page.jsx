@@ -1,7 +1,7 @@
-"use client"
+"use client";
 
-  import IdenticalHero from "@/components/hero/hero";
-  import heroImg from "@/public/telephone.png";
+import IdenticalHero from "@/components/hero/hero";
+import heroImg from "@/public/telephone.png";
 import gis from "@/public/gis.png";
 import { FaPhoneAlt } from "react-icons/fa";
 import { TbMailFilled } from "react-icons/tb";
@@ -62,7 +62,8 @@ function ContactUs() {
                 <Image src={gis} alt="" width={27} />
 
                 <p className="text-justify">
-                  4 Pius Chuku Close, off Eze Nvuigwe Avenue, Woji, Port
+                  Suite 4, Adibea Plaza Chief Ade Nwonoro Street Woji-Akpajo
+                  Link Road Gbalajam, Woji Port Harcourt, Rivers State Nigeria
                   Harcourt, Rivers State, Nigeria.
                 </p>
               </div>

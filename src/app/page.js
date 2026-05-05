@@ -460,14 +460,14 @@ export default function Home() {
                   </p>
                   <div className="flex items-center gap-2 text-sm">
                     {" "}
-                    <CalendarDays /> 25th & 26th September 2025
+                    <CalendarDays /> 24th & 25th September 2026
                   </div>
                 </div>
               </div>
               <div className="py-3">
                 <p className="text-ltgreentext font-bold">
                   Africa International Conference on Clean Energy & Energy
-                  Storage (AICCEES), 2025
+                  Storage (AICCEES), 2026
                 </p>
                 <p>
                   In order to achieve the Sustainable Development Goals in
@@ -511,14 +511,14 @@ export default function Home() {
                   </p>
                   <div className="flex items-center gap-2 text-sm">
                     {" "}
-                    <CalendarDays /> 25th & 26th September 2025
+                    <CalendarDays /> 24th & 25th September 2026
                   </div>
                 </div>
               </div>
               <div className="flex justify-between pt-6 md:pt-0 pb-6 border-b border-gray-400">
                 <div className="w-[30%] md:w-[20%] bg-prigreentext flex items-center justify-center rounded-md">
                   <p className="text-white font-bold text-center">
-                    JANUARY 1,2025
+                    January 1,2026
                   </p>
                 </div>
                 <div className="w-[65%] md:w-[70%]">
@@ -545,7 +545,7 @@ export default function Home() {
               <div className="flex justify-between py-6 border-b border-gray-400">
                 <div className="w-[30%] md:w-[20%] bg-prigreentext flex items-center justify-center rounded-md">
                   <p className="text-white font-bold text-center">
-                    MAY 31,2025
+                    July 31,2026
                   </p>
                 </div>
                 <div className="w-[65%] md:w-[70%]">
@@ -572,9 +572,9 @@ export default function Home() {
               <div className="flex justify-between py-6">
                 <div className="w-[30%] md:w-[20%] bg-prigreentext flex items-center justify-center rounded-md">
                   <p className="text-white font-bold text-center">
-                    SEPTEMBER <br /> 25 & 26,
+                    September <br /> 24 & 25,
                     <br />
-                    2025
+                    2026
                   </p>
                 </div>
                 <div className="w-[65%] md:w-[70%]">

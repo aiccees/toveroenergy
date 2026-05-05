@@ -109,7 +109,6 @@ function Footer() {
           {/* <Link href="/tovero">
             <p className="mb-2">TSET</p>
           </Link> */}
-
         </div>
 
         <div className="flex flex-col items-center md:items-start">
@@ -119,8 +118,8 @@ function Footer() {
           <br />
 
           <p className="w-1/2 md:w-full mb-2 text-center md:text-justify">
-            4 Pius Chuku Close, off Eze Nvuigwe Avenue, Woji, Port Harcourt,
-            Rivers State, Nigeria.
+            Suite 4, Adibea Plaza Chief Ade Nwonoro Street Woji-Akpajo Link Road
+            Gbalajam, Woji Port Harcourt, Rivers State Nigeria
           </p>
         </div>
         <hr className="md:hidden" />
