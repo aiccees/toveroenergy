@@ -11,6 +11,8 @@ import Link from "next/link";
 import FooterLogo from "@/public/logo_footer.png";
 
 function Footer() {
+  const date = new Date();
+  const year = date.getFullYear();
   return (
     <footer className="text-base md:text-[14px] w-[95%] lg:w-[90%] my-0 mx-auto">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-16 md:gap-y-8 gap-y-6 text-primarytext">
@@ -43,12 +45,14 @@ function Footer() {
                 <IoLogoTwitter />
               </Link>
               <Link
+              target="_blank"
                 href="https://www.youtube.com/@toveroenergy3932/streams"
                 className="p-3 rounded-full bg-[#E7E7E7] border border-[#C9C9C9]"
               >
                 <IoLogoYoutube />
               </Link>
               <Link
+              target="_blank"
                 href="https://www.facebook.com/share/1CumSyAP5q"
                 className="p-3 rounded-full bg-[#E7E7E7] border border-[#C9C9C9]"
               >
@@ -137,12 +141,14 @@ function Footer() {
           <br />
           <div className="flex md:hidden justify-between">
             <Link
+            target="_blank"
               href="https://www.linkedin.com/company/76421340/admin/feed/posts/"
               className="p-3 rounded-full bg-[#E7E7E7] border border-[#C9C9C9]"
             >
               <IoLogoLinkedin />
             </Link>
             <Link
+            target="_blank"
               href="https://x.com/ToveroEnergy?s=09"
               className="p-3 rounded-full bg-[#E7E7E7] border border-[#C9C9C9]"
             >
@@ -155,13 +161,15 @@ function Footer() {
               <IoLogoYoutube />
             </Link>
             <Link
+            target="_blank"
               href="https://x.com/ToveroEnergy?s=09"
               className="p-3 rounded-full bg-[#E7E7E7] border border-[#C9C9C9]"
             >
               <IoLogoFacebook />
             </Link>
             <Link
-              href=""
+            target="_blank"
+              // href="https://www.instagram.com/toveroenergy/"
               className="p-3 rounded-full bg-[#E7E7E7] border border-[#C9C9C9]"
             >
               <IoLogoInstagram />
@@ -177,7 +185,7 @@ function Footer() {
         <div className="flex justify-center lg:justify-start">
           <p className="text-[#c0c0c0]">
             Copyright{" "}
-            <span className="text-[#828282]">Tovero Energy Ltd. 2024</span>
+            <span className="text-[#828282]">Tovero Energy Ltd. {year}</span>
           </p>
         </div>
 
