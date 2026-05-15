@@ -169,7 +169,7 @@ function Footer() {
             </Link>
             <Link
             target="_blank"
-              // href="https://www.instagram.com/toveroenergy/"
+              href=""
               className="p-3 rounded-full bg-[#E7E7E7] border border-[#C9C9C9]"
             >
               <IoLogoInstagram />
