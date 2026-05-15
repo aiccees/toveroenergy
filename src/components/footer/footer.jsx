@@ -49,7 +49,7 @@ function Footer() {
                 <IoLogoYoutube />
               </Link>
               <Link
-                href="https://x.com/ToveroEnergy?s=09"
+                href="https://www.facebook.com/share/1CumSyAP5q"
                 className="p-3 rounded-full bg-[#E7E7E7] border border-[#C9C9C9]"
               >
                 <IoLogoFacebook />
