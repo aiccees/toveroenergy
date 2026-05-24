@@ -1,6 +1,33 @@
 import bookIcon from "@/public/images/publishers/book.png";
-import amber from "@/public/images/home/amber.png"
-"1TQTxeYwrQJ0WfOvsl-fGcLOlhl0VoKcZ"
+import amber from "@/public/images/home/amber.png";
+
+export const featuredPublications = [
+  {
+    id: 1,
+    icon: bookIcon,
+    text: "Controlled Cooking Test-Nigeria (2023)",
+    link: "https://mecs.org.uk/wp-content/uploads/2023/08/Controlled-Cooking-Test-draft-Nigeria_Tovero-Energy.pdf",
+  },
+  {
+    id: 2,
+    icon: bookIcon,
+    text: "The Nigeria ECookbook (2024)",
+    link: "https://mecs.org.uk/wp-content/uploads/2024/02/Nigeria-ECookbook.pdf",
+  },
+  {
+    id: 3,
+    icon: bookIcon,
+    text: "Sierra Leone Market Readiness Assessment (2024)",
+    link: "https://www.gecco.org/wp-content/uploads/2025/05/Sierra-Leone-RA-Presentation.pdf",
+  },
+  {
+    id: 4,
+    icon: bookIcon,
+    text: "Nigeria Market Readiness Assessment for the Mass scale up of E-cooking (2024)",
+    link: "https://www.gecco.org/wp-content/uploads/2025/05/Market-Readiness-Updated_final.pdf",
+  },
+];
+
 export const publisherInfo = [
   {
     id: 1,
