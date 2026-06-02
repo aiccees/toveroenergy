@@ -342,7 +342,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+              <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-8">
                 <div className="space-y-6">
                   <div className="bg-white rounded-xl p-8 shadow-md border border-gray-100">
                     <h3 className="font-header text-2xl text-prigreentext mb-6">Become a Cook Clean Advocate</h3>
@@ -399,10 +399,7 @@ export default function Home() {
                           title: "Network Growth",
                           description: "Connect with like-minded advocates and industry professionals"
                         },
-                        {
-                          title: "Funding Access",
-                          description: "Discover and access funding opportunities in the clean cooking sector"
-                        },
+                        
                         {
                           title: "Knowledge Hub",
                           description: "Access exclusive resources and learning materials"
