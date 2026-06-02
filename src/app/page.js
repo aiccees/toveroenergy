@@ -17,10 +17,6 @@ import SponsorsCarousel from "../components/sponsors_carousel/carousel";
 import { FaLocationDot } from "react-icons/fa6";
 import microsoftLogo from "@/public/images/home/logos_microsoft-teams.png";
 import scientific from "@/public/images/home/Scientific_2.png";
-import sparks1 from "@/public/images/54sp.png";
-import sparks2 from "@/public/images/54sp1.png";
-import sparks3 from "@/public/images/54sp2.png";
-import sparks4 from "@/public/images/spa.png";
 
 export default function Home() {
   return (
@@ -218,7 +214,7 @@ export default function Home() {
               <Image
                 src={card.image}
                 alt="services image 1"
-               className={`hidden md:block ${((card.id === 7 || card.id === 8) && "w-[30%] h-[100%] rounded")}`}
+               className={`hidden md:block ${((card.id === 7 || card.id === 8 || card.id === 5) && "w-[30%] h-[100%] rounded")}`}
 
               />
               <div className="text-center md:text-left">
@@ -313,7 +309,7 @@ export default function Home() {
 
                 <div className="flex-1">
                   
-                  <h2 className="text-3xl font-header text-prigreentext">Cook Clean Advocate Training Cohort 3</h2>
+                  <h2 className="text-3xl font-header text-prigreentext">Cook Clean Advocate Training</h2>
                   <p className="text-gray-700 leading-relaxed text-justify md:w-3/4">
                     Join our bi-weekly webinar series exploring the evolving landscape of clean cooking transition across Africa.
                     We aim to promote understanding, showcase innovations, and foster collaboration among stakeholders in clean cooking initiatives.
@@ -338,7 +334,7 @@ export default function Home() {
                 <div className="flex-shrink-0">
                   <Link href="https://bit.ly/cookcleanadvocate" target="_blank">
                     <CustomButton variant="secondary" className="whitespace-nowrap">
-                      Join Next Webinar
+                      Join Next Cohort
                     </CustomButton>
                   </Link>
                 
@@ -360,10 +356,7 @@ export default function Home() {
                           title: "Show Commitment",
                           description: "Be passionate about clean cooking and committed to advocating for sustainable solutions"
                         },
-                        {
-                          title: "Attend Webinars",
-                          description: "Participate in at least 5 editions of the 54 Sparks webinar series"
-                        },
+                        
                         {
                           title: "Complete Training",
                           description: "Successfully finish the Clean Cooking Advocate Training Module"
@@ -484,8 +477,9 @@ export default function Home() {
                     </p>
                   </div>
                   <div className="flex items-center gap-2 w-full md:w-[25%] bg-cardbg p-3 text-sm">
-                    <Image src={microsoftLogo} alt="microsoft logo" />
-                    <p>Microsoft Teams</p>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" preserveAspectRatio="xMidYMid" viewBox="0 0 256 256"><defs><linearGradient id="a" x1="23.666%" x2="76.334%" y1="95.6118%" y2="4.3882%"><stop offset=".00006%" stop-color="#0845BF"/><stop offset="19.11%" stop-color="#0950DE"/><stop offset="38.23%" stop-color="#0B59F6"/><stop offset="50%" stop-color="#0B5CFF"/><stop offset="67.32%" stop-color="#0E5EFE"/><stop offset="77.74%" stop-color="#1665FC"/><stop offset="86.33%" stop-color="#246FF9"/><stop offset="93.88%" stop-color="#387FF4"/><stop offset="100%" stop-color="#4F90EE"/></linearGradient></defs><path fill="url(#a)" d="M256 128c0 13.568-1.024 27.136-3.328 40.192-6.912 43.264-41.216 77.568-84.48 84.48C155.136 254.976 141.568 256 128 256c-13.568 0-27.136-1.024-40.192-3.328-43.264-6.912-77.568-41.216-84.48-84.48C1.024 155.136 0 141.568 0 128c0-13.568 1.024-27.136 3.328-40.192 6.912-43.264 41.216-77.568 84.48-84.48C100.864 1.024 114.432 0 128 0c13.568 0 27.136 1.024 40.192 3.328 43.264 6.912 77.568 41.216 84.48 84.48C254.976 100.864 256 114.432 256 128Z"/><path fill="#FFF" d="M204.032 207.872H75.008c-8.448 0-16.64-4.608-20.48-12.032-4.608-8.704-2.816-19.2 4.096-26.112l89.856-89.856H83.968c-17.664 0-32-14.336-32-32h118.784c8.448 0 16.64 4.608 20.48 12.032 4.608 8.704 2.816 19.2-4.096 26.112l-89.6 90.112h74.496c17.664 0 32 14.08 32 31.744Z"/></svg>
+                    <p>Zoom</p>
+                    
                   </div>
                 </div>
               </div>
