@@ -392,7 +392,7 @@ export default function Home() {
                     <div className="space-y-6">
                       {[
                         {
-                          title: "Expert Mentorship",
+                          title: "Internship/ Volunteering opportunities",
                           description: "Get guidance from industry leaders and experienced practitioners"
                         },
                         {
