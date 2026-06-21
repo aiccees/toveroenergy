@@ -1,8 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import HeroImg from "@/public/images/home/hero_img.png";
-import Rean from "@/public/images/home/rean.png";
 import SolarImg from "@/public/images/home/solar.png";
 import ChooseUs from "@/public/images/home/choose_us.png";
 import CustomButton from "../components/button/button";
@@ -14,6 +12,7 @@ import chooseUs from "../data_models/why_choose_us";
 import upcomingEventsImg from "@/public/images/home/regimg.png";
 import { motion } from "framer-motion";
 import SponsorsCarousel from "../components/sponsors_carousel/carousel";
+import HomeHeroCarousel from "../components/hero/home-hero-carousel";
 import { FaLocationDot } from "react-icons/fa6";
 import microsoftLogo from "@/public/images/home/logos_microsoft-teams.png";
 import scientific from "@/public/images/home/Scientific_2.png";
@@ -27,44 +26,7 @@ export default function Home() {
       <br className="lg:hidden" />
       <br className="lg:hidden" />
       <br className="lg:hidden" />
-      <div className="w-[95%] lg:w-full mx-auto md:mx-0 my-0 h-auto lg:h-screen flex-col lg:flex-row flex justify-between">
-        <div className="w-full lg:w-1/2 flex flex-col mt-16 justify-center md:px-16">
-          <div className="w-full font-header text-4xl mb-2">
-            <h1 className="text-center md:text-left">
-              Healing<span className="text-ltgreentext"> Earth,</span>
-            </h1>
-            <h1 className="text-center md:text-left">
-              Solving Carbon Problems
-            </h1>
-          </div>
-
-          <p className="ptag text-center md:text-justify mb-2">
-            Tovero Energy has strategically positioned itself as a dependable
-            partner as we lead discussions on how we can develop energy systems
-            that are both resilient to prevailing climatic conditions, and
-            capable to meet the growing demand for energy in ways that are both
-            clean and sustainable.
-          </p>
-          <br />
-          <Link href="https://aiccees.com" target="_blank">
-            <div className="flex justify-center md:justify-start">
-              <CustomButton variant="primary">SEE EVENTS</CustomButton>
-            </div>
-          </Link>
-
-          <br />
-          <div className="flex gap-2 items-center justify-center md:justify-start mt-2 mb-6 lg:mb-0">
-            <Image src={Rean} alt="logo" />
-            <div>
-              <p className="ptag">Tovero Energy Ltd is a member of </p>
-              <p className="ptag">Renewable Energy Association of Nigeria</p>
-            </div>
-          </div>
-        </div>
-        <div className="flex justify-end">
-          <Image src={HeroImg} alt="Hero Image" loading="lazy" className="" />
-        </div>
-      </div>
+      <HomeHeroCarousel />
       <br />
       <br />
       <br />
@@ -74,7 +36,7 @@ export default function Home() {
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.4 }}
+            transition={{ duration: 0.6, delay: 0.5 }}
             viewport={{ once: false }}
             className="flex flex-col md:flex-row justify-between"
           >

@@ -37,6 +37,36 @@ body {
   box-shadow: -1px 2px 7px 0px rgba(227,223,227,0.64);
 }
 
+.home-hero-carousel {
+  overflow: hidden;
+  width: 100%;
+}
+
+.home-hero-carousel .swiper-wrapper {
+  align-items: flex-start;
+}
+
+.home-hero-carousel .swiper-slide {
+  width: 100% !important;
+  flex-shrink: 0;
+  height: auto;
+}
+
+.home-hero-carousel .swiper-pagination {
+  bottom: 1.5rem;
+  z-index: 10;
+}
+
+.home-hero-carousel .swiper-pagination-bullet {
+  background: #eee;
+  opacity: 0.5;
+}
+
+.home-hero-carousel .swiper-pagination-bullet-active {
+  background: #16a34a;
+  opacity: 1;
+}
+
 /* @layer utilities {
   .text-balance {
     text-wrap: balance;
