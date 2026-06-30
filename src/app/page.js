@@ -273,8 +273,7 @@ export default function Home() {
                   
                   <h2 className="text-3xl font-header text-prigreentext">Cook Clean Advocate Training</h2>
                   <p className="text-gray-700 leading-relaxed text-justify md:w-3/4">
-                    Join our bi-weekly webinar series exploring the evolving landscape of clean cooking transition across Africa.
-                    We aim to promote understanding, showcase innovations, and foster collaboration among stakeholders in clean cooking initiatives.
+                    Join our Cook Clean Advocate Training Programme, designed to equip participants with the knowledge, skills, and tools needed to champion clean cooking solutions, drive awareness, and support the transition to cleaner, healthier, and more sustainable cooking practices across Africa.
                   </p>
                   <br />
                   {/* <section className="grid grid-cols-2 gap-4"> 
