@@ -112,6 +112,7 @@ function Publications() {
                 </div>
                 <Link
                   href={card.link}
+                  target="_blank"
                   className="flex items-end justify-between text-redtext underline text-[12px]"
                 >
                   <p>Download</p>
@@ -143,6 +144,7 @@ function Publications() {
                 </div>
                 <Link
                   href={card.link}
+                  target="_blank"
                   className="flex items-end justify-between text-redtext underline text-[12px]"
                 >
                   <p>Download</p>
