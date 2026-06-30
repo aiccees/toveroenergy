@@ -9,7 +9,7 @@ import { CalendarDays } from "lucide-react";
 import Link from "next/link";
 import home_services from "../data_models/home_services";
 import chooseUs from "../data_models/why_choose_us";
-import upcomingEventsImg from "@/public/images/home/regimg.png";
+import upcomingEventsImg from "@/public/images/home/aiccees2026-flyer.jpeg";
 import { motion } from "framer-motion";
 import SponsorsCarousel from "../components/sponsors_carousel/carousel";
 import HomeHeroCarousel from "../components/hero/home-hero-carousel";
