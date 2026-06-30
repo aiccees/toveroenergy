@@ -67,6 +67,24 @@ body {
   opacity: 1;
 }
 
+@keyframes sponsors-marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.sponsors-marquee-track {
+  animation: sponsors-marquee 35s linear infinite;
+  will-change: transform;
+}
+
+.sponsors-marquee:hover .sponsors-marquee-track {
+  animation-play-state: paused;
+}
+
 /* @layer utilities {
   .text-balance {
     text-wrap: balance;
