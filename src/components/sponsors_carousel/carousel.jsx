@@ -3,12 +3,15 @@ import asteven from "@/public/images/home/asteven.svg";
 import enerpro from "@/public/images/home/enerpro.svg";
 import trans from "@/public/images/home/trans.svg";
 import uniport from "@/public/images/home/unipor.svg";
+import inmotv from "@/public/images/home/inmotv.jpg";
+import tennLogo from "@/public/images/home/tenn-logo.png";
 
 // //// SWIPER IMPORTS /////// //
 import { Pagination, Scrollbar, Navigation, Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/bundle";
 import Image from "next/image";
+import { cn } from "@/utils/utils";
 
 const sponsors_list = [
   { id: 1, image: mecs },
@@ -16,6 +19,8 @@ const sponsors_list = [
   { id: 3, image: enerpro },
   { id: 4, image: trans },
   { id: 5, image: uniport },
+  { id: 6, image: inmotv },
+  { id: 7, image: tennLogo },
 ];
 
 function SponsorsCarousel() {
@@ -66,7 +71,11 @@ function SponsorsCarousel() {
           <Image
             src={item.image}
             alt={`sponsor image ${item.id}`}
-            className="w-auto"
+            className={cn(
+              "w-auto", 
+              [6, 7].includes(item.id) && "w-1/2"
+            )}
+       
           />
         </SwiperSlide>
       ))}
