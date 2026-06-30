@@ -126,7 +126,7 @@ export const journalPublications = [
     id: 3,
     icon: bookIcon,
     text: "AICCEES 2025 BOA - Third Edition",
-    link: "https://drive.google.com/drive/u/1/folders/1dF-xQpVIF9WCphnocQoazT0qTfS3XBiO",
+    link: "https://drive.google.com/file/d/19ZK_LBP-h9x66k26Dn2NCa5twOLn3BFr/view?usp=drivesdk",
   },
 ];
 export const sparksReport = [
