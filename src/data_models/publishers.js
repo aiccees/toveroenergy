@@ -120,7 +120,7 @@ export const journalPublications = [
     id: 2,
     icon: bookIcon,
     text: "AICCEES 2024 BOA - Second Edition",
-    link: "https://drive.google.com/file/d/19ZK_LBP-h9x66k26Dn2NCa5twOLn3BFr/view?usp=sharing",
+    link: "https://drive.google.com/file/d/1bWy3F-O4-kiEtB6iEZJUb_Y3sjetv-VL",
   },
   {
     id: 3,
