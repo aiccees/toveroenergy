@@ -114,7 +114,7 @@ export const journalPublications = [
     id: 1,
     icon: bookIcon,
     text: "AICCEES 2023 BOA - First Edition",
-    link: "https://drive.google.com/file/d/1MMfJK1vIlKukOAGoSKtHMvbH7nneunBQ/view?usp=drive_link",
+    link: "https://drive.google.com/file/d/1hfZu3e08-7X2kIs076ogpYEvNLTgxtj7",
   },
   {
     id: 2,
