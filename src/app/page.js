@@ -9,13 +9,13 @@ import { CalendarDays } from "lucide-react";
 import Link from "next/link";
 import home_services from "../data_models/home_services";
 import chooseUs from "../data_models/why_choose_us";
-import upcomingEventsImg from "@/public/images/home/aiccees2026-flyer.jpeg";
 import { motion } from "framer-motion";
 import SponsorsCarousel from "../components/sponsors_carousel/carousel";
 import HomeHeroCarousel from "../components/hero/home-hero-carousel";
 import { FaLocationDot } from "react-icons/fa6";
 import microsoftLogo from "@/public/images/home/logos_microsoft-teams.png";
 import scientific from "@/public/images/home/Scientific_2.png";
+import aicceesLogo from "@/public/images/aicess/aicess_aicess.png";
 
 export default function Home() {
   return (
@@ -37,7 +37,7 @@ export default function Home() {
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.5 }}
-            viewport={{ once: false }}
+            viewport={{ once: true }}
             className="flex flex-col md:flex-row justify-between"
           >
             <h3 className="font-header text-center md:text-left text-4xl mb-2 md:mb-0">
@@ -68,7 +68,7 @@ export default function Home() {
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
-            viewport={{ once: false }}
+            viewport={{ once: true }}
           >
             <Image
               src={SolarImg}
@@ -140,7 +140,7 @@ export default function Home() {
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.4 }}
-        viewport={{ once: false }}
+        viewport={{ once: true }}
         className="bg-drkgreenbg pt-6 md:pt-4 pb-12 px-4"
       >
         <div className="w-full md:w-[90%] mx-auto my-0 flex justify-between items-center">
@@ -197,7 +197,7 @@ export default function Home() {
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.4 }}
-          viewport={{ once: false }}
+          viewport={{ once: true }}
           className="relative"
         >
           <h1 className="text-2xl font-header text-center md:text-left">
@@ -246,7 +246,7 @@ export default function Home() {
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.4 }}
-          viewport={{ once: false }}
+          viewport={{ once: true }}
         >
           <div className="flex justify-between">
             <div>
@@ -255,7 +255,7 @@ export default function Home() {
               </h1>
               <p>Join our upcoming events and webinars.</p>
             </div>
-            <Link href="#" className="text-sm underline hover:text-[#0E5E2E]">
+            <Link href="https://aiccees.com" target="_blank" className="text-sm underline hover:text-[#0E5E2E]">
               <div className="hidden md:flex items-center gap-2 hover:text-[#0E5E2E]">
                 <div className="flex justify-center items-center w-10 h-10 border-2 border-[#0E5E2E] rounded-[50%]">
                   <ArrowUpRight size={18} />
@@ -399,11 +399,13 @@ export default function Home() {
           <div className="flex lg:flex-row flex-col justify-between ">
             <div className="w-full lg:w-[48%] mt-0 md:mt-4 order-2 lg:order-1">
               <div className="hidden md:block">
-                <Image
-                  src={upcomingEventsImg}
-                  alt="Upcoming event"
-                  className=""
-                />
+                <div className="bg-cardbg rounded-md flex items-center justify-center p-10">
+                  <Image
+                    src={aicceesLogo}
+                    alt="AICCEES logo"
+                    className="w-full max-w-[320px] h-auto"
+                  />
+                </div>
                 <div className="flex flex-col md:flex-row items-center md:items-start md:justify-between py-4 border-b-2 border-gray-400 text-sm">
                   <p>
                     Organized by:{" "}
@@ -411,14 +413,14 @@ export default function Home() {
                   </p>
                   <div className="flex items-center gap-2 text-sm">
                     {" "}
-                    <CalendarDays /> 24th & 25th September 2026
+                    <CalendarDays /> 20th & 21st October 2027
                   </div>
                 </div>
               </div>
               <div className="py-3">
                 <p className="text-ltgreentext font-bold">
                   Africa International Conference on Clean Energy & Energy
-                  Storage (AICCEES), 2026
+                  Storage (AICCEES) 2027, 5th Edition
                 </p>
                 <p>
                   In order to achieve the Sustainable Development Goals in
@@ -430,8 +432,7 @@ export default function Home() {
                   <div className="w-full md:w-[70%] bg-cardbg flex gap-1 items-center p-3 text-sm">
                     <FaLocationDot />
                     <p className="font-bold">
-                      University of Port Harcourt, Rivers State
-                      Nigeria
+                      Port Harcourt, Rivers State, Nigeria
                     </p>
                   </div>
                   <div className="flex items-center gap-2 w-full md:w-[25%] bg-cardbg p-3 text-sm">
@@ -451,11 +452,13 @@ export default function Home() {
             </div>
             <div className="w-full md:w-[48%] mt-4 order-1 lg:order-2">
               <div className="block md:hidden">
-                <Image
-                  src={upcomingEventsImg}
-                  alt="Upcoming event"
-                  className=""
-                />
+                <div className="bg-cardbg rounded-md flex items-center justify-center p-10">
+                  <Image
+                    src={aicceesLogo}
+                    alt="AICCEES logo"
+                    className="w-full max-w-[320px] h-auto"
+                  />
+                </div>
                 <div className="flex flex-col md:flex-row items-center md:items-start md:justify-between py-4 border-b-2 border-gray-400 text-sm">
                   <p>
                     Organized by:{" "}
@@ -463,23 +466,23 @@ export default function Home() {
                   </p>
                   <div className="flex items-center gap-2 text-sm">
                     {" "}
-                    <CalendarDays /> 24th & 25th September 2026
+                    <CalendarDays /> 20th & 21st October 2027
                   </div>
                 </div>
               </div>
               <div className="flex justify-between pt-6 md:pt-0 pb-6 border-b border-gray-400">
                 <div className="w-[30%] md:w-[20%] bg-prigreentext flex items-center justify-center rounded-md">
                   <p className="text-white font-bold text-center">
-                    January 1,2026
+                    November 1, 2026
                   </p>
                 </div>
                 <div className="w-[65%] md:w-[70%]">
                   <div className="flex gap-2 items-center mb-1">
                     <p className="text-sm">Publisher:</p>
-                    <Image src={scientific} alt="scientific" />
+                    <Image src={scientific} alt="Scientific.net" />
                   </div>
                   <p className="font-bold mb-2">
-                    Abstract/Full Paper Submission
+                    Submission Portal Opens
                   </p>
                   <p className="text-sm">
                     Effective collaboration between academia and industry is
@@ -488,7 +491,7 @@ export default function Home() {
                   </p>
                   <p className="text-sm">
                     MAKE SUBMISSIONS TO:{" "}
-                    <a href="#" className="text-blue-600 underline">
+                    <a href="mailto:aiccees@uniport.edu.ng" className="text-blue-600 underline">
                       aiccees@uniport.edu.ng
                     </a>
                   </p>
@@ -497,16 +500,16 @@ export default function Home() {
               <div className="flex justify-between py-6 border-b border-gray-400">
                 <div className="w-[30%] md:w-[20%] bg-prigreentext flex items-center justify-center rounded-md">
                   <p className="text-white font-bold text-center">
-                    July 31,2026
+                    May 31, 2027
                   </p>
                 </div>
                 <div className="w-[65%] md:w-[70%]">
                   <div className="flex gap-2 items-center mb-1">
                     <p className="text-sm">Publisher:</p>
-                    <Image src={scientific} alt="scientific" />
+                    <Image src={scientific} alt="Scientific.net" />
                   </div>
                   <p className="font-bold mb-2">
-                    Deadline for Abstract/Full Paper Submission
+                    Deadline for Research Paper Submission
                   </p>
                   <p className="text-sm">
                     Effective collaboration between academia and industry is
@@ -515,7 +518,7 @@ export default function Home() {
                   </p>
                   <p className="text-sm">
                     MAKE SUBMISSIONS TO:{" "}
-                    <a href="#" className="text-blue-600 underline">
+                    <a href="mailto:aiccees@uniport.edu.ng" className="text-blue-600 underline">
                       aiccees@uniport.edu.ng
                     </a>
                   </p>
@@ -524,9 +527,9 @@ export default function Home() {
               <div className="flex justify-between py-6">
                 <div className="w-[30%] md:w-[20%] bg-prigreentext flex items-center justify-center rounded-md">
                   <p className="text-white font-bold text-center">
-                    September <br /> 24 & 25,
+                    October <br /> 20 & 21,
                     <br />
-                    2026
+                    2027
                   </p>
                 </div>
                 <div className="w-[65%] md:w-[70%]">
@@ -562,7 +565,7 @@ export default function Home() {
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.4 }}
-        viewport={{ once: false }}
+        viewport={{ once: true }}
       >
         <h1 className="text-2xl font-header text-center md:text-left ml-0 md:ml-16">
           OUR PARTNERS

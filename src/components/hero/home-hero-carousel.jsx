@@ -26,7 +26,8 @@ const BACKGROUND_IMAGES = [
   herobg7,
 ];
 
-const CONFERENCE_DATE = "2026-09-24T00:00:00Z";
+// AICCEES 2027 starts 20 October 2027 (Lagos time, UTC+1)
+const CONFERENCE_DATE = "2027-10-20T00:00:00+01:00";
 
 function AicceesCountdownTimer() {
   const [timeLeft, setTimeLeft] = useState(null);
@@ -88,7 +89,7 @@ function ToveroHeroSlide() {
       <div className="w-full lg:w-1/2 flex flex-col mt-16 justify-center md:px-16">
         <div className="w-full font-header text-4xl mb-2">
           <h1 className="text-center md:text-left">
-            Healing<span className="text-ltgreentext"> Earth,</span>
+            Healing<span className="text-ltgreentext"> Earth</span>
           </h1>
           <h1 className="text-center md:text-left">Solving Carbon Problems</h1>
         </div>
@@ -97,7 +98,7 @@ function ToveroHeroSlide() {
           Tovero Energy has strategically positioned itself as a dependable
           partner as we lead discussions on how we can develop energy systems
           that are both resilient to prevailing climatic conditions, and capable
-          to meet the growing demand for energy in ways that are both clean and
+          of meeting the growing demand for energy in ways that are both clean and
           sustainable.
         </p>
         <br />
@@ -165,15 +166,15 @@ function AicceesHeroSlide() {
         <div className="flex w-full flex-col items-center space-y-4 text-center pb-6 lg:pb-0">
           <div className="space-y-3 text-center">
             <p className="inline-flex rounded-full bg-red-600/90 px-4 py-1 text-xs sm:text-sm font-semibold text-white shadow-sm">
-              Innovation Challenge applications are now open
+              2027 Innovation Challenge applications opening soon
             </p>
             <h1 className="text-2xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none text-white">
               Africa International Conference on Clean Energy & Energy Storage
               (AICCEES)
             </h1>
             <p className="mx-auto max-w-[700px] text-gray-200 text-base sm:text-lg md:text-xl">
-              Empowering Africa&apos;s Future Through Clean Energy Innovation
-              and Sustainable Storage Solutions
+              From Transition to Transformation: Powering Africa&apos;s Energy
+              Sovereignty through Innovation, Industrialisation and Resilience
             </p>
           </div>
           <div className="flex w-full max-w-md sm:max-w-none flex-col sm:flex-row items-center justify-center gap-3 !mb-8 md:!mb-10">
@@ -201,7 +202,7 @@ function AicceesHeroSlide() {
               variant="destructive"
               className="w-full sm:w-auto !bg-red-600 text-white hover:bg-red-700"
             >
-              <Link href="https://aiccees.com" target="_blank">
+              <Link href="https://aiccees.com/#submissions" target="_blank">
                 Submit Paper
               </Link>
             </Button>

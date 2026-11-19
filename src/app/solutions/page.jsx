@@ -28,7 +28,7 @@ function Solutions() {
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.4 }}
-        viewport={{ once: false }}
+        viewport={{ once: true }}
         className="w-[90%] my-0 mx-auto"
       >
         <div className="bg-cardbg flex flex-col lg:flex-row justify-between items-center gap-2 py-8 px-4 mb-4">
