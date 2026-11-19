@@ -71,7 +71,7 @@ function DetailsItemized() {
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6, delay: 0.4 }}
-      viewport={{ once: false }}
+      viewport={{ once: true }}
     >
       <div className="w-full md:w-[70%]">
         <h1 className="text-prigreentext text-3xl font-extrabold ">

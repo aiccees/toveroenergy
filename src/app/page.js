@@ -15,6 +15,7 @@ import HomeHeroCarousel from "../components/hero/home-hero-carousel";
 import { FaLocationDot } from "react-icons/fa6";
 import microsoftLogo from "@/public/images/home/logos_microsoft-teams.png";
 import scientific from "@/public/images/home/Scientific_2.png";
+import aicceesLogo from "@/public/images/aicess/aicess_aicess.png";
 
 export default function Home() {
   return (
@@ -36,7 +37,7 @@ export default function Home() {
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.5 }}
-            viewport={{ once: false }}
+            viewport={{ once: true }}
             className="flex flex-col md:flex-row justify-between"
           >
             <h3 className="font-header text-center md:text-left text-4xl mb-2 md:mb-0">
@@ -67,7 +68,7 @@ export default function Home() {
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
-            viewport={{ once: false }}
+            viewport={{ once: true }}
           >
             <Image
               src={SolarImg}
@@ -139,7 +140,7 @@ export default function Home() {
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.4 }}
-        viewport={{ once: false }}
+        viewport={{ once: true }}
         className="bg-drkgreenbg pt-6 md:pt-4 pb-12 px-4"
       >
         <div className="w-full md:w-[90%] mx-auto my-0 flex justify-between items-center">
@@ -196,7 +197,7 @@ export default function Home() {
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.4 }}
-          viewport={{ once: false }}
+          viewport={{ once: true }}
           className="relative"
         >
           <h1 className="text-2xl font-header text-center md:text-left">
@@ -245,7 +246,7 @@ export default function Home() {
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.4 }}
-          viewport={{ once: false }}
+          viewport={{ once: true }}
         >
           <div className="flex justify-between">
             <div>
@@ -398,6 +399,13 @@ export default function Home() {
           <div className="flex lg:flex-row flex-col justify-between ">
             <div className="w-full lg:w-[48%] mt-0 md:mt-4 order-2 lg:order-1">
               <div className="hidden md:block">
+                <div className="bg-cardbg rounded-md flex items-center justify-center p-10">
+                  <Image
+                    src={aicceesLogo}
+                    alt="AICCEES logo"
+                    className="w-full max-w-[320px] h-auto"
+                  />
+                </div>
                 <div className="flex flex-col md:flex-row items-center md:items-start md:justify-between py-4 border-b-2 border-gray-400 text-sm">
                   <p>
                     Organized by:{" "}
@@ -444,6 +452,13 @@ export default function Home() {
             </div>
             <div className="w-full md:w-[48%] mt-4 order-1 lg:order-2">
               <div className="block md:hidden">
+                <div className="bg-cardbg rounded-md flex items-center justify-center p-10">
+                  <Image
+                    src={aicceesLogo}
+                    alt="AICCEES logo"
+                    className="w-full max-w-[320px] h-auto"
+                  />
+                </div>
                 <div className="flex flex-col md:flex-row items-center md:items-start md:justify-between py-4 border-b-2 border-gray-400 text-sm">
                   <p>
                     Organized by:{" "}
@@ -550,7 +565,7 @@ export default function Home() {
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, delay: 0.4 }}
-        viewport={{ once: false }}
+        viewport={{ once: true }}
       >
         <h1 className="text-2xl font-header text-center md:text-left ml-0 md:ml-16">
           OUR PARTNERS

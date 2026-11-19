@@ -38,7 +38,7 @@ function Footer() {
               </div>
             </div>
             <br />
-            <div className="hidden md:flex justify-between">
+            <div className="hidden md:flex flex-wrap gap-3">
               <Link
                 target="_blank"
                 href="https://www.linkedin.com/company/76421340/"
@@ -155,7 +155,7 @@ function Footer() {
             </div>
           </div>
           <br />
-          <div className="flex md:hidden justify-between">
+          <div className="flex md:hidden flex-wrap justify-center gap-3">
             <Link
             target="_blank"
               href="https://www.linkedin.com/company/76421340/"

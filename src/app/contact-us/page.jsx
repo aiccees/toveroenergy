@@ -34,7 +34,7 @@ function ContactUs() {
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.4 }}
-          viewport={{ once: false }}
+          viewport={{ once: true }}
           className="flex flex-col lg:flex-row items-center"
         >
           <div className="w-full lg:w-[45%] flex flex-col justify-center bg-drkgreenbg h-auto lg:h-[90vh] text-white py-4 px-5 r">

@@ -30,7 +30,7 @@ function Publications() {
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.4 }}
-          viewport={{ once: false }}
+          viewport={{ once: true }}
         >
           <p className="ptag font-bold text-2xl">
             Clean Cooking &amp; Market Readiness Reports
@@ -62,7 +62,7 @@ function Publications() {
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.4 }}
-          viewport={{ once: false }}
+          viewport={{ once: true }}
         >
           <p className="ptag font-bold text-2xl">
             Tonipash Sustainable Energy Talks(TSET) - Reports
@@ -93,7 +93,7 @@ function Publications() {
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.4 }}
-          viewport={{ once: false }}
+          viewport={{ once: true }}
         >
           <p className="ptag font-bold text-2xl">
             Conference Publications
@@ -125,7 +125,7 @@ function Publications() {
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.4 }}
-          viewport={{ once: false }}
+          viewport={{ once: true }}
         >
           <p className="ptag font-bold text-2xl">
             54 sparks report
