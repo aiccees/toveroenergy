@@ -48,7 +48,7 @@ const home_services = [
         id: 7,
         image: serv7,
         title: "PURE Technology Solutions",
-        description: "Design and construction of PURE(Productive Use of Renewable Energy) systems that are efficient and sustainable."
+        description: "Design and construction of PURE (Productive Use of Renewable Energy) systems that are efficient and sustainable."
     },
     {
         id: 8,
