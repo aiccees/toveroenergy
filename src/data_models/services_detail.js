@@ -60,13 +60,13 @@ export const serviceInfo = [
     id: 6,
     image: img6,
     title: "ENERGY EDUCATION & ADVOCACY",
-    description: `Tovero Energy Ltd is a leading voice in the clean energy advocacy space through the flagship Tonipash Sustainable Energy Talk™ (TSET). The major objective of Tonipash Sustainable Energy Talk™ is to spark up behavioural change through monthly virtual renewable energy and climate change awareness and advocacy sessions.From the inception of Tonipash Sustainable Energy Talk™ (TSET) till date, 52 speakers from different parts of the world have featured on the advocacy and awareness event (65% of which were male and 35% female), and over 1,500 participants have been reached (90% of them youths). Visit our Youtube channel to see the various topics and discussions so far https://www.youtube.com/@toveroenergy3932/videos.This in addition to the annual Africa International Conference on Clean Energy and Energy Storage (AICCEES) provide a platform for exchange of ideas and updates on new and emerging trends in the industry.`,
+    description: `Tovero Energy Ltd is a leading voice in the clean energy advocacy space through the flagship Tonipash Sustainable Energy Talk™ (TSET). The major objective of Tonipash Sustainable Energy Talk™ is to spark behavioural change through monthly virtual renewable energy and climate change awareness and advocacy sessions. From the inception of Tonipash Sustainable Energy Talk™ (TSET) till date, 52 speakers from different parts of the world have featured on the advocacy and awareness event (65% of which were male and 35% female), and over 1,500 participants have been reached (90% of them youths). Visit our YouTube channel to see the various topics and discussions so far https://www.youtube.com/@toveroenergy3932/videos. This, in addition to the annual Africa International Conference on Clean Energy and Energy Storage (AICCEES), provides a platform for exchange of ideas and updates on new and emerging trends in the industry.`,
   },
   {
     id: 7,
     image: img7,
     title: "PURE TECHNOLOGY SOLUTIONS",
-    description: `Design and construction of PURE(Productive Use of Renewable Energy) systems that are efficient and sustainable.`,
+    description: `Design and construction of PURE (Productive Use of Renewable Energy) systems that are efficient and sustainable.`,
     
   },
   {

@@ -23,22 +23,31 @@ function Footer() {
             <div className="flex justify-between gap-6">
               <div>
                 <p className="text-[12px]">Email</p>
-                <p className="text-[12px]">info@toveroenergy.com</p>
+                <p className="text-[12px]">
+                  <a href="mailto:info@toveroenergy.com">info@toveroenergy.com</a>
+                </p>
               </div>
               <div>
                 <p className="text-[12px]">Phone number</p>
-                <p className="text-[12px]">+2348037641860</p>
+                <p className="text-[12px]">
+                  <a href="tel:+2348037641860">+2348037641860</a>
+                </p>
+                <p className="text-[12px]">
+                  <a href="tel:+2348133426978">+2348133426978</a>
+                </p>
               </div>
             </div>
             <br />
-            <div className="hidden md:flex justify-between">
+            <div className="hidden md:flex flex-wrap gap-3">
               <Link
-                href="https://www.linkedin.com/company/76421340/admin/feed/posts/"
+                target="_blank"
+                href="https://www.linkedin.com/company/76421340/"
                 className="p-3 rounded-full bg-[#E7E7E7] border border-[#C9C9C9]"
               >
                 <IoLogoLinkedin />
               </Link>
               <Link
+                target="_blank"
                 href="https://x.com/ToveroEnergy?s=09"
                 className="p-3 rounded-full bg-[#E7E7E7] border border-[#C9C9C9]"
               >
@@ -53,7 +62,7 @@ function Footer() {
               </Link>
               <Link
               target="_blank"
-                href="https://www.facebook.com/share/1CumSyAP5q"
+                href="https://www.facebook.com/toveroenergy/"
                 className="p-3 rounded-full bg-[#E7E7E7] border border-[#C9C9C9]"
               >
                 <IoLogoFacebook />
@@ -86,7 +95,7 @@ function Footer() {
             <p className="mb-2">Clean Cooking Solutions</p>
           </Link>
           <Link href="/services">
-            <p className="mb-2">Energy System Design & Development</p>
+            <p className="mb-2">Energy Systems Design & Development</p>
           </Link>
           <Link href="/services">
             <p className="mb-2">Energy Education & Advocacy</p>
@@ -131,18 +140,25 @@ function Footer() {
           <div className="flex justify-between">
             <div>
               <p>Email</p>
-              <p>info@toveroenergy.com</p>
+              <p>
+                <a href="mailto:info@toveroenergy.com">info@toveroenergy.com</a>
+              </p>
             </div>
             <div>
               <p>Phone number</p>
-              <p>+2348133426978</p>
+              <p>
+                <a href="tel:+2348037641860">+2348037641860</a>
+              </p>
+              <p>
+                <a href="tel:+2348133426978">+2348133426978</a>
+              </p>
             </div>
           </div>
           <br />
-          <div className="flex md:hidden justify-between">
+          <div className="flex md:hidden flex-wrap justify-center gap-3">
             <Link
             target="_blank"
-              href="https://www.linkedin.com/company/76421340/admin/feed/posts/"
+              href="https://www.linkedin.com/company/76421340/"
               className="p-3 rounded-full bg-[#E7E7E7] border border-[#C9C9C9]"
             >
               <IoLogoLinkedin />
@@ -155,6 +171,7 @@ function Footer() {
               <IoLogoTwitter />
             </Link>
             <Link
+            target="_blank"
               href="https://www.youtube.com/@toveroenergy3932/streams"
               className="p-3 rounded-full bg-[#E7E7E7] border border-[#C9C9C9]"
             >
@@ -162,7 +179,7 @@ function Footer() {
             </Link>
             <Link
             target="_blank"
-              href="https://x.com/ToveroEnergy?s=09"
+              href="https://www.facebook.com/toveroenergy/"
               className="p-3 rounded-full bg-[#E7E7E7] border border-[#C9C9C9]"
             >
               <IoLogoFacebook />
